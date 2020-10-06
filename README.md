@@ -17,3 +17,15 @@ to incorporate code (main branch) from repo into existing project:
 ```
 ➜  graphql-chat-app npx degit https://github.com/jherr/wp5-starter-react.git\#main client
 ```
+
+## Running
+
+```
+yarn add
+```
+
+(within each apps - client, homep-page, server - root, in three terminal windows)
+
+```
+yarn start
+```
