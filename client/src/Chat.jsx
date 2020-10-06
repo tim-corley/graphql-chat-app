@@ -52,6 +52,7 @@ const Messages = ({ user }) => {
             display: 'flex',
             justifyContent: user === messageUser ? 'flex-end' : 'flex-start',
             paddingBottom: '1em',
+            marginTop: '5em',
           }}
         >
           {user !== messageUser && (
@@ -122,7 +123,9 @@ const Chat = () => {
           />
         </Col>
         <Col xs={2} style={{ padding: 0 }}>
-          <Button onClick={() => onSend()}>SEND</Button>
+          <Button onClick={() => onSend()} style={{ width: '100%' }}>
+            SEND
+          </Button>
         </Col>
       </Row>
     </Container>
